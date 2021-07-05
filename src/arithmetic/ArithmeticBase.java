@@ -18,7 +18,7 @@ public class ArithmeticBase
  public double x,y;
  public enum operation 
  {
-     PLUS,MINUS,TIMES,DIVIDE
+     PLUS,MINUS,TIMES,DIVIDE;
  }
     double calculate(double x, double y) 
         {
