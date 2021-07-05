@@ -23,7 +23,7 @@ public class ArithmeticBase
     double calculate(double x, double y) 
         {
         Scanner sc =new Scanner(System.in);
-        System.out.println("Enter the index value");
+        System.out.println("Enter the operation value");
          String s =sc.next();
         operation op = operation.valueOf(s);
         switch (op) 
